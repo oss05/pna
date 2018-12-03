@@ -217,10 +217,10 @@ p h3{
 .header {
   width: 100VW;
   height: 100VH;
-  position: absolute;
+  position: fixed;
   z-index: 1;
   margin: 0;
-  background-color: red;
+  background-image: url(https://wallpaper.wiki/wp-content/uploads/2017/05/wallpaper.wiki-Classy-Image-Download-Free-PIC-WPE009616.jpg);
   background-size: cover;
   font-size: 72px;
   font-family: "Helvetica";
@@ -234,8 +234,8 @@ p h3{
   top: 400px;
   background-color: rgba(0,0,0,0.5);
   background-image: url(http://hdqwalls.com/wallpapers/city-blur-4k.jpg);
-  opacity: 0.8;
-  filter: alpha(opacity=80);
+ /* opacity: 0.8;
+  filter: alpha(opacity=80);*/
   background-size: cover;
   background-attachment: fixed;
   z-index: 2;
